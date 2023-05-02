@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Pacifico&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('./assets/wallpaper.gif');
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 60rem;
+    height: 40rem;
+    background: #05e393;
+    border-radius: 30px;
+}
+
+div.title{
+    width: 100%;
+    margin-top: 1.5rem;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+div.title h1 {
+    font-size: 3.3rem;
+    font-family: 'Allura', cursive;
+}
+
+div.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+div .text p{
+    font-size: 2.5rem;  
+    padding: 0 3rem;
+    font-family: 'Pacifico', cursive;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-break: loose;
+}
+
+div .text h2 {
+    margin-top: 2rem;
+    font-size: 2rem;
+    font-family: 'Allura', cursive;
+}
+
+div.text img {
+    width: 6rem;
+    height: 6rem;
+}
